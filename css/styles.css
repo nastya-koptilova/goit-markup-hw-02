@@ -1,0 +1,18 @@
+@import url('<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">');
+
+body {
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --main-background-color: #FFFFFF;
+    --main-text-color: #212121;
+    --text-description-color: #757575;
+    --object-active-color: #2196F3;
+    --accent-background-color: #F5F4FA;
+    --footer-background-color: #2F303A;
+    --main-font-family: 'Roboto', sans-serif;
+    --logo-font-family: 'Raleway', sans-serif;
+}
