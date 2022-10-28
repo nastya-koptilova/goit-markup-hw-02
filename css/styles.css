@@ -178,3 +178,41 @@ h1 {
 .footer__contacts a:focus {
     color: var(--main-background-color);
 }
+
+.portfolio__filter-btn {
+    height: 38px;
+    background: var(--accent-background-color);
+    border-radius: 4px;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    cursor: pointer;
+    font-family: var(--main-font-family);
+    color: var(--main-text-color);
+}
+
+.portfolio__filter-btn:hover, .portfolio__filter-btn:focus {
+    background: var(--object-active-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    color: var(--main-background-color);
+}
+
+.portfolio__card {
+    width: 370px;
+    height: 404px;
+    border: 1px solid #EEEEEE;
+}
+
+.portfolio__card h3 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.portfolio__card p {
+    font-size: 16px;
+    line-height: 1.88;
+    color: var(--text-description-color);
+}
