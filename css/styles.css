@@ -101,3 +101,10 @@ h1 {
     line-height: 24px;
     color: var(--text-description-color);
 }
+
+.we-do h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+}
+
