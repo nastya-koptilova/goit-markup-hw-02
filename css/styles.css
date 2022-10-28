@@ -1,4 +1,4 @@
-@import url('<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
 
 :root {
     --main-background-color: #FFFFFF;
@@ -14,7 +14,7 @@
 
 body {
     background: var(--main-background-color);
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--main-font-family);
     color: var(--main-text-color);
 }
 
@@ -30,6 +30,7 @@ li {
     font-family: var(--logo-font-family);
     font-weight: 700;
     font-size: 26px;
+    line-height: 1.2;
     color: var(--main-text-color);
 }
 
@@ -41,15 +42,18 @@ li {
     color: var(--main-text-color);
     font-weight: 500;
     font-size: 14px;
+    line-height: 1.14;
 }
 
 .header__contacts {
     color: var(--text-description-color);
     font-weight: 500;
     font-size: 14px;
+    line-height: 1.14;
 }
 
-.header__nav-items a:hover, .header__contacts:hover {
+.header__nav-items a:hover, .header__contacts:hover, .header__nav-items a:focus,
+.header__contacts:focus {
     color: var(--object-active-color);
 }
 
@@ -60,8 +64,9 @@ li {
 h1 {
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.36;
     text-align: center;
+    letter-spacing: 0.06em;
     color: var(--main-background-color);
     text-transform: uppercase;
 }
@@ -76,7 +81,7 @@ h1 {
     color: var(--main-background-color);
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.88;
     text-align: center;
     cursor: pointer;
 }
@@ -92,20 +97,19 @@ h1 {
 .benefits__items h3 {
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
 }
 
 .benefits__items p {
-    font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     color: var(--text-description-color);
 }
 
 .we-do h2 {
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.17;
     text-align: center;
 }
 
@@ -125,21 +129,52 @@ h1 {
 .team h2 {
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.17;
     text-align: center;
 }
 
 .team__items h3 {
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.19;
     text-align: center;
 }
 
 .team__items p {
-    font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.19;
     text-align: center;
     color: var(--text-description-color);
+}
+
+.footer {
+    background: var(--footer-background-color);
+}
+
+.footer__logo {
+    font-family: var(--logo-font-family);
+    font-weight: 700;
+    font-size: 26px;
+    color: var(--main-background-color);
+}
+
+.footer__logo span {
+    color: var(--object-active-color);
+}
+
+.footer__contacts {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    font-style: normal;
+    color: var(--main-background-color);
+}
+
+.footer__contacts a {
+    color: var(--text-description-color);
+}
+
+.footer__contacts a:hover,
+.footer__contacts a:focus {
+    color: var(--main-background-color);
 }
