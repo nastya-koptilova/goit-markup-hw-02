@@ -60,7 +60,7 @@ li {
     color: var(--object-active-color);
 }
 
-.header__nav-list .current {
+.header__nav-items .current {
     color: var(--object-active-color);
 }
 
