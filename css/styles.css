@@ -60,6 +60,10 @@ li {
     color: var(--object-active-color);
 }
 
+.current {
+    color: var(--object-active-color);
+}
+
 .banner {
     background: var(--footer-background-color);
 }
