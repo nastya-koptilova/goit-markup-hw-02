@@ -31,6 +31,7 @@ li {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
+    letter-spacing: 0.03em;
     color: var(--main-text-color);
 }
 
@@ -43,6 +44,7 @@ li {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .header__contacts {
@@ -50,6 +52,7 @@ li {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .header__nav-items a:hover, .header__contacts:hover, .header__nav-items a:focus,
@@ -69,6 +72,7 @@ h1 {
     letter-spacing: 0.06em;
     color: var(--main-background-color);
     text-transform: uppercase;
+    letter-spacing: 0.06em;
 }
 
 .banner__btn {
@@ -80,6 +84,7 @@ h1 {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
+    letter-spacing: 0.06em;
     text-align: center;
     cursor: pointer;
 }
@@ -96,11 +101,13 @@ h1 {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
+    letter-spacing: 0.03em;
 }
 
 .benefits__items p {
     font-size: 14px;
     line-height: 1.71;
+    letter-spacing: 0.03em;
     color: var(--text-description-color);
 }
 
@@ -108,6 +115,7 @@ h1 {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
+    letter-spacing: 0.03em;
     text-align: center;
 }
 
@@ -126,6 +134,7 @@ h1 {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
+    letter-spacing: 0.03em;
     text-align: center;
 }
 
@@ -133,12 +142,14 @@ h1 {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
+    letter-spacing: 0.03em;
     text-align: center;
 }
 
 .team__items p {
     font-size: 16px;
     line-height: 1.19;
+    letter-spacing: 0.03em;
     text-align: center;
     color: var(--text-description-color);
 }
@@ -151,6 +162,8 @@ h1 {
     font-family: var(--logo-font-family);
     font-weight: 700;
     font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
     color: var(--main-background-color);
 }
 
@@ -162,6 +175,7 @@ h1 {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
+    letter-spacing: 0.03em;
     font-style: normal;
     color: var(--main-background-color);
 }
@@ -183,6 +197,7 @@ h1 {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
+    letter-spacing: 0.03em;
     text-align: center;
     cursor: pointer;
     font-family: var(--main-font-family);
@@ -203,10 +218,12 @@ h1 {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
+    letter-spacing: 0.06em;
 }
 
 .portfolio__card p {
     font-size: 16px;
     line-height: 1.88;
+    letter-spacing: 0.03em;
     color: var(--text-description-color);
 }
